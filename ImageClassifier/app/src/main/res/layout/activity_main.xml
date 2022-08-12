@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="bottom|center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="분리수거 정보"
+        android:textColor="@color/teal_200"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:id="@+id/main_plastic"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="50dp"
+            android:src="@drawable/plastic2" />
+
+        <ImageView
+            android:id="@+id/main_plastic_bag"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/plasticbag2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:id="@+id/main_plastic_bottle"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="50dp"
+            android:src="@drawable/styrofoam" />
+
+
+        <ImageView
+            android:id="@+id/main_glass"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/glass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:id="@+id/main_paper"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="50dp"
+            android:src="@drawable/paper" />
+
+        <ImageView
+            android:id="@+id/main_can"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/can2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp">
+
+
+        <Button
+            android:id="@+id/galleryBtn"
+
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:padding="10dp"
+            android:text="갤러리"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/cameraBtn"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:padding="10dp"
+            android:text="카메라"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
